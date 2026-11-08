@@ -8,7 +8,7 @@ Bu dünyada Scribble bir streetwear markası. Aynı marka ve logo, her repoda fa
 
 Siyah sinema titlecard’ı, TR/EN arayüz, yüzen navbar, filtrelenebilir koleksiyon, yedi ürün detayı, demo sepeti, film arşivi, newsletter ve pop-up çalışması. E-posta, ödeme veya sipariş servisi bağlı değildir.
 
-[Canlı site](https://mkochandev.github.io/scribble-streetwear/)
+[Canlı site](https://scribble-worlds.github.io/scribble-streetwear/)
 
 ## Çalıştırma
 
