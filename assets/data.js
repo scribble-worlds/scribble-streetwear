@@ -18,7 +18,10 @@ stickers:[
 {image:'sticker-03',source:'https://pin.it/48lUWx2tF',name:'Blasted — logo reference',owner:null},
 {image:'sticker-04',source:'https://pin.it/5Uhloeb1D',name:'R monogram',owner:null},
 {image:'sticker-05',source:'https://pin.it/2LgdOBF6M',name:'Shark mouth illustration',owner:null},
-{image:'sticker-06',source:'https://pin.it/QsRzCtg6x',name:'Gaultier brooch',owner:'Gaultier'}
+{image:'sticker-06',source:'https://pin.it/QsRzCtg6x',name:'Gaultier brooch',owner:'Gaultier'},
+{image:'sticker-07',asset:'sticker-07.webp',source:'https://tr.pinterest.com/pin/129408189267009787/',name:'A Bathing Ape — ape head',owner:'A Bathing Ape'},
+{image:'sticker-08',asset:'sticker-08.webp',source:'https://tr.pinterest.com/pin/709035535131743071/',name:'Leopard illustration',owner:null},
+{image:'sticker-09',asset:'sticker-09.webp',source:'https://tr.pinterest.com/pin/621778292335513047/',name:'Graffiti eyes sticker',owner:null}
 ],
 design:[
 {name:'TUX Creative House',url:'https://tux.co/en/',role:{tr:'Yüzen navbar ve genişleyen menü',en:'Floating navigation and expanding menu'}},
