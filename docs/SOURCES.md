@@ -58,3 +58,11 @@ The shared Scribble mark is carried forward from the existing project. Code and 
 SNORES — Wake up. Winter season. Kullanıcının verdiği ilk Pin, ana ekranda sessiz döngü olarak da gösterilir. Video dosyası orijinal Pinterest CDN adresinden yüklenir; Scribble tarafından yeniden barındırılmaz. Hareket azaltma tercihinde otomatik oynatma kapalıdır.
 
 Kaynak: https://pin.it/1ZBWk9TVc
+
+## Additional footer references
+
+| Source | Visible subject / credit |
+| --- | --- |
+| https://tr.pinterest.com/pin/129408189267009787/ | A Bathing Ape — ape head mark |
+| https://tr.pinterest.com/pin/709035535131743071/ | Leopard illustration; original creator not verified |
+| https://tr.pinterest.com/pin/621778292335513047/ | Graffiti eyes sticker; original creator not verified |
