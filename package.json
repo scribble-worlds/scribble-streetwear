@@ -1,1 +1,0 @@
-{"name":"scribble-streetwear","version":"1.0.0","private":true,"description":"Scribble Streetwear / 001 — TR/EN concept storefront","scripts":{"build":"python3 build.py","check":"node --check assets/app.js && node --check assets/data.js"}}
