@@ -52,3 +52,9 @@ These are decorative reference images, not a partner / stockist list. The in-sit
 ## Scribble identity and code
 
 The shared Scribble mark is carried forward from the existing project. Code and concept presentation: muham²ed. The public concept does not collect email addresses, send marketing messages, process payments or create orders.
+
+## Ana ekran arka plan videosu
+
+SNORES — Wake up. Winter season. Kullanıcının verdiği ilk Pin, ana ekranda sessiz döngü olarak da gösterilir. Video dosyası orijinal Pinterest CDN adresinden yüklenir; Scribble tarafından yeniden barındırılmaz. Hareket azaltma tercihinde otomatik oynatma kapalıdır.
+
+Kaynak: https://pin.it/1ZBWk9TVc

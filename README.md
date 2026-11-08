@@ -8,6 +8,8 @@ Bu dünyada Scribble bir streetwear markası. Aynı marka ve logo, her repoda fa
 
 Siyah sinema titlecard’ı, TR/EN arayüz, yüzen navbar, filtrelenebilir koleksiyon, yedi ürün detayı, demo sepeti, film arşivi, newsletter ve pop-up çalışması. E-posta, ödeme veya sipariş servisi bağlı değildir.
 
+[Canlı site](https://mkochandev.github.io/scribble-streetwear/)
+
 ## Çalıştırma
 
 Bağımlılık kurulumu gerekmez. Python 3 ve Node.js (JavaScript sözdizimi kontrolü için) yeterlidir.
@@ -32,7 +34,7 @@ npm run build
 - Gerçek ödeme, stok kontrolü, sipariş, kargo veya kullanıcı hesabı yoktur.
 - Newsletter e-postaları hiçbir yere gönderilmez veya kaydedilmez. Form sonucu bu durumu açıkça belirtir.
 - Pop-up ilk ana sayfa ziyaretinde 26 saniye sonra, oturum başına bir kez açılır; footer düğmesinden yeniden açılabilir.
-- Videolar kullanıcı tıklayınca Pinterest embed oynatıcısında açılır. Oynatıcı engellenirse orijinal Pin bağlantısı bulunur. Video dosyaları yeniden barındırılmaz.
+- Videolar kullanıcı tıklayınca Pinterest embed oynatıcısında açılır. Oynatıcı engellenirse orijinal Pin bağlantısı bulunur. Video dosyaları yeniden barındırılmaz. Ana ekrandaki SNORES filmi doğrudan kaynak sunucusundan sessiz ve döngüde oynar; durdurma düğmesi vardır. Hareket azaltma tercihinde otomatik başlamaz.
 - Filtre, sıralama, beden seçimi, büyütme, sepet adedi / silme ve klavye ile kapatma çalışır.
 - Hareket azaltma tercihi, klavye odağı ve mobil yerleşim desteklenir.
 
@@ -44,6 +46,6 @@ npm run build
 
 ## Yayın
 
-Mevcut `.openai/hosting.json` aynı Site kimliğini korur. Kaynak değişikliklerinden sonra `python3 build.py` ile çıktıyı yenileyin. `dist/` herhangi bir statik sağlayıcıda sunulabilir. GitHub Pages kullanılırsa yayın kökü `dist` çıktısı olmalıdır; Pages ayarı ayrıca etkinleştirilmelidir.
+Mevcut `.openai/hosting.json` aynı Site kimliğini korur. Kaynak değişikliklerinden sonra `python3 build.py` ile çıktıyı yenileyin. `dist/` herhangi bir statik sağlayıcıda sunulabilir. GitHub Pages için `gh-pages` dalının kökü yayınlanır. `main` kaynakları ve `dist` çıktısını tutar. Güncellemede `python3 build.py` çalıştırın ve `dist` içeriğini `gh-pages` dalının köküne aktarın. Pages ayarı: Deploy from a branch → gh-pages → /(root).
 
 [Diğer Scribble dünyaları](https://mkochandev.github.io/) · [muham²ed](https://github.com/Mkochandev)
