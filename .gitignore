@@ -1,0 +1,3 @@
+assets/media/*.jpg
+__pycache__/
+.DS_Store

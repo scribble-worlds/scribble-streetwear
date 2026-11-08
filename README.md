@@ -4,38 +4,46 @@
 
 **001 / Tek marka. Farklı dünyalar.**
 
-Bu projede **Scribble bir streetwear markası**. Site, Scribble gerçek bir sokak giyimi markasıymış gibi tasarlanacak; ürün dili, görseller, içerikler ve alışveriş arayüzü bu dünyaya ait olacak.
+Bu dünyada Scribble bir streetwear markası. Aynı marka ve logo, her repoda farklı bir sektörün içinde yeniden hayal ediliyor.
 
-## Scribble nedir?
+Siyah sinema titlecard’ı, TR/EN arayüz, yüzen navbar, filtrelenebilir koleksiyon, yedi ürün detayı, demo sepeti, film arşivi, newsletter ve pop-up çalışması. E-posta, ödeme veya sipariş servisi bağlı değildir.
 
-Scribble, aynı markanın farklı sektörlerde yeniden hayal edildiği tasarım ve geliştirme projesi. Her repo başka bir sektör; her projede marka yine Scribble. **Logo sabit**, görsel dil ve kullanıcı deneyimi sektörün karakterine göre yeniden kuruluyor.
+## Çalıştırma
 
-Seri büyüdükçe her proje, Scribble’ın farklı bir dünyasını oluşturacak.
+Bağımlılık kurulumu gerekmez. Python 3 ve Node.js (JavaScript sözdizimi kontrolü için) yeterlidir.
 
-## Bu dünyanın çerçevesi
+```bash
+python3 build.py
+python3 -m http.server 8000 --directory dist
+```
 
-- **Marka:** Scribble
-- **Sektör:** Streetwear / sokak giyimi
-- **Diller:** Türkçe ve İngilizce
-- **Amaç:** Yayında gezilebilen, portföy amaçlı bir marka ve site deneyimi
-- **Kimlik:** Serinin ortak logosu korunur; bu projenin estetiği streetwear dünyasına göre belirlenir.
-- **Kapsam:** Tasarım demosu. Gerçek satış, ödeme veya sipariş altyapısı bu aşamanın kapsamında değildir.
+Tarayıcıda `http://localhost:8000` adresini açın.
 
-## Durum
+```bash
+npm run check
+npm run build
+```
 
-**Hazırlık aşamasında.** Tasarım referansları henüz seçilmedi. Site uygulamasına ve görsel yönüne referanslar değerlendirildikten sonra başlanacak.
+`dist/` hazır statik çıktıdır. Yeni ürünler ve kaynaklar `assets/data.js`, etkileşimler `assets/app.js`, tasarım `assets/style.css` içindedir. Her ürünün ayrı HTML adresi vardır. `site.config.json` canonical / sitemap adresini tanımlar.
 
-Bu repo şu an proje tanımını ve ortak logo dosyalarını içerir. Henüz çalışan bir mağaza veya canlı demo yoktur.
+## Demo davranışı
 
-## Logo
+- Dil ve sepet yalnızca bu tarayıcının `localStorage` alanında saklanır.
+- Gerçek ödeme, stok kontrolü, sipariş, kargo veya kullanıcı hesabı yoktur.
+- Newsletter e-postaları hiçbir yere gönderilmez veya kaydedilmez. Form sonucu bu durumu açıkça belirtir.
+- Pop-up ilk ana sayfa ziyaretinde 26 saniye sonra, oturum başına bir kez açılır; footer düğmesinden yeniden açılabilir.
+- Videolar kullanıcı tıklayınca Pinterest embed oynatıcısında açılır. Oynatıcı engellenirse orijinal Pin bağlantısı bulunur. Video dosyaları yeniden barındırılmaz.
+- Filtre, sıralama, beden seçimi, büyütme, sepet adedi / silme ve klavye ile kapatma çalışır.
+- Hareket azaltma tercihi, klavye odağı ve mobil yerleşim desteklenir.
 
-- [Scribble logosu](assets/scribble-logo.svg)
-- [Scribble simgesi](assets/scribble-symbol.svg)
+## Tasarım ve krediler
 
-## Seriyi keşfet
+[Referanslar sayfası](dist/references.html) · [Kaynak listesi](docs/SOURCES.md) · [Sağlanan DESIGN.md](docs/DESIGN.md)
 
-[Portföy / Scribble nedir?](https://mkochandev.github.io/#scribble-nedir) · [Scribble repoları](https://github.com/search?q=user%3AMkochandev+scribble&type=repositories) · [muham²ed](https://github.com/Mkochandev)
+Ürün ve video görselleri orijinal marka / üreticilerine aittir. İsimler, fiyatlar ve bedenler konsept için örnektir. Atıf kullanım lisansı anlamına gelmez. Bilinmeyen hak sahipleri açıkça belirtilmiştir; bir ortaklık veya sponsorluk iddia edilmez.
 
----
+## Yayın
 
-**EN** — Scribble is one brand imagined across different industries. Each repository places the same brand and logo in a new world. In this first edition, Scribble is a streetwear label. This is a portfolio concept; visual references and implementation are still pending.
+Mevcut `.openai/hosting.json` aynı Site kimliğini korur. Kaynak değişikliklerinden sonra `python3 build.py` ile çıktıyı yenileyin. `dist/` herhangi bir statik sağlayıcıda sunulabilir. GitHub Pages kullanılırsa yayın kökü `dist` çıktısı olmalıdır; Pages ayarı ayrıca etkinleştirilmelidir.
+
+[Diğer Scribble dünyaları](https://mkochandev.github.io/) · [muham²ed](https://github.com/Mkochandev)
