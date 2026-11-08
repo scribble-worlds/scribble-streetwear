@@ -38,6 +38,8 @@ npm run build
 - Filtre, sıralama, beden seçimi, büyütme, sepet adedi / silme ve klavye ile kapatma çalışır.
 - Hareket azaltma tercihi, klavye odağı ve mobil yerleşim desteklenir.
 
+Ana sayfadaki ürün şeridi yedi parçayla mobil ve masaüstünde kesintisiz döner. Fareyle üzerine gelince, klavye odağında veya durdurma düğmesiyle durur. Hareket azaltma tercihinde elle kaydırılır.
+
 ## Tasarım ve krediler
 
 [Referanslar sayfası](dist/references.html) · [Kaynak listesi](docs/SOURCES.md) · [Sağlanan DESIGN.md](docs/DESIGN.md)
